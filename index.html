@@ -9,15 +9,21 @@
 <body>
   <!-- Encabezado y navegación -->
   <header class="header">
-    <nav class="nav container">
-      <a href="#" class="nav__logo">ER</a>
-      <ul class="nav__list">
-        <li><a href="#sobre-mi" class="nav__link">Sobre mí</a></li>
-        <li><a href="#habilidades" class="nav__link">Habilidades</a></li>
-        <li><a href="#proyectos" class="nav__link">Proyectos</a></li>
-        <li><a href="#contacto" class="nav__link">Contacto</a></li>
-      </ul>
-    </nav>
+<nav class="nav container">
+  <a href="#" class="nav__logo">ER</a>
+  
+  <!-- Botón hamburguesa (visible solo en móvil) -->
+  <button class="nav__toggle" id="nav-toggle" aria-label="Abrir menú">
+    ☰
+  </button>
+
+  <ul class="nav__list" id="nav-menu">
+    <li><a href="#sobre-mi" class="nav__link">Sobre mí</a></li>
+    <li><a href="#habilidades" class="nav__link">Habilidades</a></li>
+    <li><a href="#proyectos" class="nav__link">Proyectos</a></li>
+    <li><a href="#contacto" class="nav__link">Contacto</a></li>
+  </ul>
+</nav>
   </header>
 
   <!-- Sección principal (hero) -->
@@ -94,5 +100,6 @@
       <a href="mailto:edwin@example.com" class="btn">Envíame un correo</a>
     </div>
   </footer>
+  <script src="script.js"></script>
 </body>
 </html>
